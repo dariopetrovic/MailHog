@@ -4,7 +4,7 @@
 
 FROM golang:alpine
 
-# Install MailHog:
+# Install MailHog server:
 RUN apk --no-cache add --virtual build-dependencies \
     git \
   && mkdir -p /root/gocode \
